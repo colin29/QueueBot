@@ -5,10 +5,6 @@ var request = require('request')
 
 var botToken = require('./botToken');
 
-var serverid = "410611061297905667"; 
-var channelid = "410611061775925249";
-
-
 var bot = new Discord.Client({
   autorun: true,
   token: botToken.getBotToken()
